@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.5.9.3">
+	<info>
+		<title>Cargo Breach</title>
+		<author>Garry Francis</author>
+	</info>
+	<map>
+		<room id="2" name="Boiler Room" subtitle="" x="-40" y="160" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Boiler room|Steam ship|Ship's hull|Boiler room stairs|Boiler</objects>
+		</room>
+		<room id="3" name="Lower Deck" subtitle="" x="-40" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Lower deck|Steam ship|Moonlight|Cabin door|Open doorway|Boiler room stairs|Poop deck stairs|Two dead bodies</objects>
+		</room>
+		<room id="4" name="Poop Deck" subtitle="" x="-160" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Poop deck|Bridge|Stern|Bridge stairs|Steam ship|Moonlight|Poop deck stairs|Davit|Lifeboat</objects>
+		</room>
+		<room id="5" name="Crane 2" subtitle="" x="-280" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Crane 2|Steam ship|Moonlight|Decks|Lights|Crane 2 stairs|Buttons|Red button|Green button|Dead body|Empty canteen</objects>
+		</room>
+		<room id="6" name="Radio Room" subtitle="" x="-280" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Radio room|Steam ship|Moonlight|Windows|Lights|Cables and conduits|Radio|Codebook|Coded message</objects>
+		</room>
+		<room id="7" name="Main Deck" subtitle="" x="-160" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Main deck|Steam ship|Moonlight|Opening|Crane 2 stairs|Ice|Ladder</objects>
+		</room>
+		<room id="10" name="Crane 1" subtitle="" x="-280" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Crane 1|Steam ship|Moonlight|Decks|Lights|Crane 1 stairs|Brass key</objects>
+		</room>
+		<room id="11" name="Cargo Hold 1" subtitle="" x="-40" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Cargo hold 1|Steam ship|Ship's hull|Moonlight|Ladder|Electrical socket</objects>
+		</room>
+		<room id="14" name="Cargo Hold 2" subtitle="" x="-40" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Cargo hold 2|Steam ship|Ship's hull|Moonlight|Ladder|Cargo container|Cargo container door|Locking bars|Chlorine gas|Electromagnet|Spanner|Copper wire|Electrical socket</objects>
+		</room>
+		<line id="27" startText="D" endText="U">
+			<dock index="0" id="3" port="s" />
+			<dock index="1" id="2" port="n" />
+		</line>
+		<line id="28" startText="D" endText="U">
+			<dock index="0" id="4" port="se" />
+			<dock index="1" id="3" port="nw" />
+		</line>
+		<line id="29" startText="A" endText="F">
+			<dock index="0" id="7" port="s" />
+			<dock index="1" id="4" port="n" />
+		</line>
+		<line id="31" style="dashed" startText="D" endText="U">
+			<dock index="0" id="5" port="e" />
+			<dock index="1" id="7" port="w" />
+		</line>
+		<line id="32" startText="D" endText="U">
+			<dock index="0" id="10" port="e" />
+			<dock index="1" id="44" port="w" />
+		</line>
+		<line id="45" startText="D" endText="U">
+			<dock index="0" id="7" port="e" />
+			<dock index="1" id="14" port="w" />
+		</line>
+		<room id="92" name="Cargo Breach (Garry Francis)" subtitle="" x="-180" y="-360" w="240" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="38" name="Crew's Quarters" subtitle="" x="-160" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Crew's quarters|Moonlight|Porthole|Ship's hull|Steam ship|Electrical socket|Lamp|Short cord and plug|Cabin door|Bunk|Blanket|Sheets|(Strip of linen)|Alarm clock|(Timer)|Foot locker|(Gas mask)|(Batteries)</objects>
+		</room>
+		<room id="44" name="Fore Deck" subtitle="" x="-160" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Fore deck|Steam ship|Moonlight|Opening|Bow|Crane 1 stairs|Ladder</objects>
+		</room>
+		<room id="61" name="Engine Room" subtitle="" x="-40" y="240" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Engine room|Steam ship|Ship's hull|Steam engine|Circuit breaker|Body of engineer|(Screwdriver)</objects>
+		</room>
+		<room id="62" name="Mess Hall" subtitle="" x="80" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Mess hall|Steam ship|Dead bodies|Stove|Pot|Bulk water|Water</objects>
+		</room>
+		<room id="69" name="Cargo Container" subtitle="" x="-40" y="0" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Cargo container|Steam ship|Cargo container door|Locking bars|Chlorine gas|Torch|Boxes|Metal cylinders</objects>
+		</room>
+		<line id="120" style="dashed" startText="A" endText="F">
+			<dock index="0" id="14" port="s" />
+			<dock index="1" id="69" port="n" />
+		</line>
+		<line id="124" startText="A" endText="F">
+			<dock index="0" id="2" port="s" />
+			<dock index="1" id="61" port="n" />
+		</line>
+		<line id="128" style="dashed" startText="S" endText="P">
+			<dock index="0" id="38" port="e" />
+			<dock index="1" id="3" port="w" />
+		</line>
+		<line id="129" startText="S" endText="P">
+			<dock index="0" id="3" port="e" />
+			<dock index="1" id="62" port="w" />
+		</line>
+		<room id="231" name="Copyright © Garry Francis 2023" subtitle="" x="-280" y="240" w="180" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="232" name="Legend" subtitle="" x="80" y="-160" w="80" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="None" description="" roomFill="#FFFFFF" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="240" name="Start Room" subtitle="" x="80" y="-120" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="241" name="Normal Room" subtitle="" x="80" y="-60" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="286" name="Dark Room" subtitle="" x="80" y="0" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="8" startText="D" endText="U">
+			<dock index="0" id="44" port="e" />
+			<dock index="1" id="11" port="w" />
+		</line>
+		<line id="9" startText="A" endText="F">
+			<dock index="0" id="44" port="s" />
+			<dock index="1" id="7" port="n" />
+		</line>
+		<room id="12" name="Wheel House" subtitle="" x="-280" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Wheel house|Steam ship|Moonlight|Decks|Bridge stairs|Ship's cranes|Cargo holds|Windows|Lights|Wheel|Control panels|Navigation panel|Engine panel|Cargo panel|Captain|(Note)|(Metal key)|Coffee mug</objects>
+		</room>
+		<line id="13" startText="D" endText="U">
+			<dock index="0" id="12" port="e" />
+			<dock index="1" id="4" port="w" />
+		</line>
+		<room id="1" name="Store Room" subtitle="" x="-40" y="-240" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Store room|Steam ship|Ship's hull|Ladder|Bilge pit|Cover|Platform|Packing crate|(Two packing crates)</objects>
+		</room>
+		<line id="15" startText="A" endText="F">
+			<dock index="0" id="12" port="s" />
+			<dock index="1" id="6" port="n" />
+		</line>
+		<line id="16" style="dashed" startText="A" endText="F">
+			<dock index="0" id="1" port="s" />
+			<dock index="1" id="11" port="n" />
+		</line>
+		<room id="17" name="Bow" subtitle="" x="-160" y="-240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Bow|Steam ship|Moonlight|Decks|Lights|Bow</objects>
+		</room>
+		<line id="18" startText="A" endText="F">
+			<dock index="0" id="17" port="s" />
+			<dock index="1" id="44" port="n" />
+		</line>
+		<room id="19" name="Storage Platform" subtitle="" x="80" y="-240" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Storage platform|Steam ship|Ship's hull|Ladder|Platform|Packing crate</objects>
+		</room>
+		<line id="20" style="dashed" startText="U" endText="D">
+			<dock index="0" id="1" port="e" />
+			<dock index="1" id="19" port="w" />
+		</line>
+		<room id="21" name="Store Room" subtitle="" x="-40" y="-320" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Store room|Steam ship|Ship's hull|Bilge pit|Strong box|(Explosives)|(Detonator)|(Pamphlet)|(Bomb)</objects>
+		</room>
+		<line id="22" style="dashed" startText="A" endText="F">
+			<dock index="0" id="21" port="s" />
+			<dock index="1" id="1" port="n" />
+		</line>
+		<line id="23" style="dashed" flow="oneWay" startText="A">
+			<dock index="0" id="19" port="s" />
+			<dock index="1" id="1" port="se" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>#FFFF99</fill>
+			<border>Black</border>
+			<line>Black</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>Black</largeText>
+			<smallText>Black</smallText>
+			<lineText>Black</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<regions>
+			<Dark Name="Dark" TextColor="Black">Silver</Dark>
+			<Dead Name="Dead" TextColor="White">Red</Dead>
+			<NoRegion Name="NoRegion" TextColor="Black">White</NoRegion>
+			<Normal Name="Normal" TextColor="Black">#FFFF80</Normal>
+			<Underwater Name="Underwater" TextColor="Black">#80FFFF</Underwater>
+		</regions>
+		<fonts>
+			<room size="12">Arial</room>
+			<object size="12">Arial Narrow</object>
+			<line size="12">Arial Narrow</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>20</size>
+		</grid>
+		<lines>
+			<width>1</width>
+			<handDrawn>no</handDrawn>
+			<arrowSize>8</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>10</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>20</connectionStalkLength>
+			<preferredDistanceBetweenRooms>40</preferredDistanceBetweenRooms>
+			<defaultRoomName>Cave</defaultRoomName>
+		</rooms>
+		<ui>
+			<handleSize>8</handleSize>
+			<snapToElementSize>8</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>

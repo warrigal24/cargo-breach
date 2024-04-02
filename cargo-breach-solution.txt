@@ -1,0 +1,132 @@
+Cargo Breach
+By Garry Francis
+For Z-code interpreters
+
+Solution by Garry Francis
+----------------------------------------
+This is a minimal solution. You'll need to EXAMINE lots of things for this solution to make sense. Some optional (but significant) commands are shown in parentheses. These can be omitted once you know what to do.
+
+Note that nautical directions are used throughout: A = Aft, F = Fore, P = Port, S = Starboard.
+
+(OPEN DOOR) (you smell gas & close door, there's a gas mask in your foot locker)
+(X LOCKER) (you've mislaid the key)
+(OPEN IT) (it's locked)
+(UNLOCK IT) (you don't have the key)
+(X ME) (you're a crane driver, so crane might be a good place to look for key)
+TEAR SHEET (you tear off a strip of linen)
+(I) (you're now carrying a strip of linen)
+WEAR LINEN (you cover your mouth and nose and tie a knot at the back)
+OPEN DOOR
+S (you now have 30 moves to wear gas mask or half that if you remove linen mask)
+U
+F
+F
+U
+GET KEY
+D
+A
+A
+D
+P
+UNLOCK LOCKER WITH KEY
+OPEN IT (you find a gas mask & some batteries)
+GET MASK
+WEAR IT (first removing linen mask, you're now protected from chlorine gas)
+GET BATTERIES
+GET LAMP
+GET CLOCK
+S
+U
+U
+GET MUG
+SEARCH CAPTAIN (you find a piece of paper)
+G (you find a metal key)
+READ PAPER (it says, 'WILLIAM SHAKESPEARE')
+GET KEY
+A
+(X CODEBOOK) (it's 'Royal Navy Guide to Codes and Ciphers')
+READ CODEBOOK (you read about substitution cipher)
+(X MESSAGE) (it's a hand-written message)
+READ MESSAGE (once decoded, it says 'THOUSANDS IN DANGER STOP DISABLE ENGINE STOP EVACUATE CREW STOP SINK SHIP STOP', you now know what you need to do)
+F
+D
+D
+S
+FILL MUG WITH WATER
+P
+U
+F
+(U) (there's ice on the stairs)
+POUR WATER ON STAIRS (you can now go up)
+U
+PRESS RED BUTTON (magnet turned off, spanner & wire are released in cargo bay 2)
+D
+D
+GET SPANNER
+GET WIRE
+(OPEN DOOR) (it's locked)
+(X DOOR) (it's locked by locking bars)
+(X LOCKING BARS) (they're locked and unlocked using a spanner)
+UNLOCK DOOR WITH SPANNER
+OPEN IT
+(A) (it's dark)
+(F)
+PLUG LAMP INTO SOCKET (you aim it at the cargo container)
+A
+GET TORCH
+(X IT) (it's got no batteries)
+PUT BATTERIES IN IT
+F
+U
+F
+D
+F (it's dark)
+TURN ON TORCH
+(X PIT) (it's 20 feet wide)
+(F) (you can't squeeze past the crate)
+(U) (the crate prevents access to the ladder)
+PUSH CRATE
+G (crate crashes into bilge pit, you can now get to ladder)
+(X PIT) (there's still a gap of 10 feet)
+U
+(A) (the crate is in the way)
+PUSH CRATE (it falls off platform and crashes to floor below)
+A (you jump onto crate)
+(GET OFF CRATE) (fore or aft?)
+A (you clamber down the aft side of crate)
+PUSH CRATE
+G
+G
+G (crate falls into bilge pit, you can now get to the fore store room)
+(X PIT) (you can now get across)
+F
+(OPEN STRONG BOX) (it's locked)
+UNLOCK STRONG BOX WITH METAL KEY
+OPEN IT (you find explosives, detonator and pamphlet)
+(X PAMPHLET) ('How to Make a Bomb')
+(READ IT) (gives step-by-step instructions)
+GET EXPLOSIVES
+GET DETONATOR
+TIE DETONATOR TO EXPLOSIVES WITH LINEN (you now have a bomb, but it needs timer)
+ATTACH WIRE TO DETONATOR
+(MAKE TIMER) (you need a screwdriver)
+A
+A
+U
+A
+A
+D
+D
+A
+SEARCH BODY (you find a screwdriver)
+GET SCREWDRIVER
+MAKE TIMER
+CONNECT TIMER TO WIRE (you now just need to set the timer)
+DROP BOMB
+SET TIMER (you set timer to go off in 30 minutes, or you can set it to a value)
+F
+U
+U
+LOWER LIFEBOAT
+ENTER LIFEBOAT (you row to shore, bomb explodes & ship sinks)
+***THE END***
